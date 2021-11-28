@@ -651,12 +651,6 @@ body {
   padding-top: 30px;
   font-weight: 900;
 }
-.skills-content {
-  height: auto;
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 80px;
-}
 .skill-html {
   height: auto;
   width: 45%;
@@ -667,17 +661,6 @@ body {
   display: inline-block;
   padding: 1.5%;
 }
-.skill-text {
-  width: 80%;
-  position: relative;
-  height: 50px;
-}
-.html {
-  display: inline-block;
-  position: absolute;
-  left: 5%;
-  top: 30%;
-}
 .html-prog {
   width: 100%;
   height: 40px;
@@ -687,7 +670,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-.html-progress {
+.progress {
   position: absolute;
   top: 10%;
   left: 1%;
@@ -696,76 +679,11 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.4s ease;
-  width: 85%;
+  width: 100%;
   border-radius: 10px;
   background: #c70039;
 }
-.js-progress {
-  position: absolute;
-  top: 10%;
-  left: 1%;
-  height: 80%;
-  display: flex;
-  align-items: center;
-  font-family: poppins;
-  justify-content: center;
-  transition: all 0.4s ease;
-  width: 70%;
-  border-radius: 10px;
-  background: #c70039;
-}
-.bootstrap {
-  position: absolute;
-  top: 10%;
-  left: 1%;
-  height: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.4s ease;
-  width: 75%;
-  border-radius: 10px;
-  background: #c70039;
-}
-.github-progress {
-  position: absolute;
-  top: 10%;
-  left: 1%;
-  height: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 75%;
-  border-radius: 10px;
-  background: #c70039;
-  transition: all 0.4s ease;
-}
-.reactjs-progress {
-  position: absolute;
-  top: 10%;
-  left: 1%;
-  height: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.4s ease;
-  width: 5%;
-  border-radius: 10px;
-  background: #c70039;
-}
-.java-progress {
-  position: absolute;
-  top: 10%;
-  left: 1%;
-  height: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  border-radius: 10px;
-  transition: all 0.4s ease;
-  background: #c70039;
-}
+
 .portfolio-header {
   height: auto;
   width: 100%;
